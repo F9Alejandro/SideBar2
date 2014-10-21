@@ -20,7 +20,7 @@
 	<repositories>
 		<repository>
 			<id>local-repo</id>
-			<url>file:${basedir}/Source/</url>
+			<url>file:${basedir}/../../Source/</url>
 		</repository>
 		<repository>
 			<id>bukkit-repo</id>
