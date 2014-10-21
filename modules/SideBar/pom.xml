@@ -59,7 +59,7 @@
 	<repositories>
 		<repository>
 			<id>local-repo</id>
-			<url>file://${settings.localRepository}/</url>
+			<url>file:${settings.localRepository}/</url>
 		</repository>
 		<repository>
 			<id>bukkit-repo</id>
