@@ -11,6 +11,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<source.path>/var/lib/jenkins/maven-repositories/0</source.path>
 	</properties>
 
 	<profiles>
@@ -59,7 +60,7 @@
 	<repositories>
 		<repository>
 			<id>local-repo</id>
-			<url>file:${basedir}/../../Source/</url>
+			<url>file:${source.path}/</url>
 		</repository>
 		<repository>
 			<id>bukkit-repo</id>
