@@ -29,6 +29,26 @@
 		</repository>
 	</repositories>
 	<build>
+		<resources>
+			<resource>
+				<directory>../../src</directory>
+				<excludes>
+				<exclude>resources/</exclude>
+				</excludes>
+				<filtering>true</filtering>
+				<targetPath>../filtered-sources/java</targetPath>
+			</resource>
+			<resource>
+				<targetPath>.</targetPath>
+				<filtering>true</filtering>
+				<directory>../../src/resources</directory>
+				<includes>
+					<include>*.yml</include>
+					<include>scoreboards/</include>
+					<include>scripts/</include>
+				</includes>
+			</resource>
+		</resources>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
