@@ -29,6 +29,8 @@
 		</repository>
 	</repositories>
 	<build>
+		<sourceDirectory>../../src/com/empcraft/sidebar</sourceDirectory>
+		<directory>../../src</directory>
 		<resources>
 			<resource>
 				<directory>../../src</directory>
