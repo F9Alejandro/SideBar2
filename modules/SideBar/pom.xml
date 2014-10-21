@@ -54,13 +54,12 @@
 	<scm>
 		<connection>scm:git:git://github.com/f9alejandro/sidebar2.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/f9alejandro/sidebar2.git</developerConnection>
-		<url>https://github.com/nisovin/Shopkeepers</url>
 	</scm>
 
 	<repositories>
 		<repository>
 			<id>local-repo</id>
-			<url>file:${settings.localRepository}</url>
+			<url>file://${settings.localRepository}</url>
 		</repository>
 		<repository>
 			<id>bukkit-repo</id>
@@ -124,7 +123,7 @@
 			<resource>
 				<directory>../../src</directory>
 				<excludes>
-				<exclude>resources/:*</exclude>
+				<exclude>resources/</exclude>
 				</excludes>
 				<filtering>true</filtering>
 				<targetPath>../filtered-sources/java</targetPath>
@@ -135,8 +134,8 @@
 				<directory>../../src/resources</directory>
 				<includes>
 					<include>*.yml</include>
-					<include>scoreboards/:*</include>
-					<include>scripts/:*</include>
+					<include>scoreboards/</include>
+					<include>scripts/</include>
 				</includes>
 			</resource>
 		</resources>
