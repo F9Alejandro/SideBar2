@@ -25,36 +25,6 @@
 			<version>1.7.2_R0.3</version>
 			<type>jar</type>
 		</dependency>
-		<dependency>
-			<groupId>org.bukkit.plugins</groupId>
-			<artifactId>Vault</artifactId>
-			<version>1.4.1</version>
-		</dependency>
-		<dependency>
-			<groupId>org.bukkit.plugins</groupId>
-			<artifactId>EnjinMinecraftPlugin</artifactId>
-			<version>2.7.0</version>
-		</dependency>
-		<dependency>
-			<groupId>org.bukkit.plugins</groupId>
-			<artifactId>Essentials</artifactId>
-			<version>Dev2.14.71</version>
-		</dependency>
-		<dependency>
-			<groupId>org.bukkit.plugins</groupId>
-			<artifactId>Factions</artifactId>
-			<version>2.5.0</version>
-		</dependency>
-		<dependency>
-			<groupId>org.bukkit.plugins</groupId>
-			<artifactId>MassiveCore</artifactId>
-			<version>7.3.0</version>
-		</dependency>
-		<dependency>
-			<groupId>org.bukkit.plugins</groupId>
-			<artifactId>IndividualMessages</artifactId>
-			<version>0.1.5</version>
-		</dependency>
 		<!--
 		<dependency>
 			<groupId>com.nisovin.shopkeepers</groupId>
