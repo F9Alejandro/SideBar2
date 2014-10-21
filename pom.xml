@@ -29,13 +29,14 @@
 		</repository>
 	</repositories>
 	<build>
-		<sourceDirectory>../../src/com/empcraft/sidebar</sourceDirectory>
-		<directory>../../src</directory>
 		<resources>
 			<resource>
 				<directory>../../src</directory>
+				<includes>
+				<include></include>	
+				</includes>
 				<excludes>
-				<exclude>resources/</exclude>
+				<exclude>resources/**/</exclude>
 				</excludes>
 				<filtering>true</filtering>
 				<targetPath>../filtered-sources/java</targetPath>

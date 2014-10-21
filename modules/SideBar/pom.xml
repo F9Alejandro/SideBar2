@@ -124,7 +124,7 @@
 			<resource>
 				<directory>../../src</directory>
 				<excludes>
-				<exclude>resources/</exclude>
+				<exclude>resources/**/*</exclude>
 				</excludes>
 				<filtering>true</filtering>
 				<targetPath>../filtered-sources/java</targetPath>
